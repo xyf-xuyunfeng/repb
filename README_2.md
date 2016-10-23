@@ -145,5 +145,12 @@
   - 6. browserSync
   - 7. gulp-autoprefixer
 
+### 取消淘宝镜像配置
+  - npm config delete registry
+  - npm config delete disturl
+ 
+  - 或者 
+  - npm config edit 
+  - 找到淘宝那两行,删除
 
 https://www.imfreevpn.com
